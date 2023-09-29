@@ -1,0 +1,30 @@
+.dog-menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.dog-menu{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+
+.dog-menu ul li{
+    padding-left: 100px;
+}   
+
+.dog-menu ul li a{
+    color: cadetblue;
+    transition: 0.5s ease;
+}
+
+.dog-menu ul li a:hover{
+    /* color: blue; */
+    color: #8eaafb;
+    box-shadow: 0 2px 0 0 currentColor;
+}
